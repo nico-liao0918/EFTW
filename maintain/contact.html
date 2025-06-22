@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta 
+            name="viewport" 
+            content="width=device-width, initial-scale=1.0"
+        />
+        <!--
+        <meta http-equiv="refresh" content="0; url=/error/error.html">
+        -->
+        <title>EFV WEBSITE</title>
+        <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="genstyle/global.css">
+    </head>
+
+    <body>
+        <header>
+            <div>
+                <h1>
+                    <a 
+                        href="index.html">
+                            Eco-Friendly Vehicle/Technology Website
+                    </a>
+                </h1>
+            </div>
+            <div>
+                <nav>
+                    <button id="menu-toggle">☰ Menu</button>
+                    <ul id="menu-list" class="hidden">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <button id="dark-toggle" class="button">Toggle Dark Mode</button>
+            </section>
+            <section>
+                <div id="popup" class="popup_hidden">
+                  <div class="popup-box">
+                    <h3>Stay in the Loop!</h3>
+                    <p>Subscribe to receive updates, newsletters, newspapers, or announcements.</p>
+                    <button onclick="location.href='subscribe.html'">Yes, Sign Me Up</button>
+                    <button onclick="closePopup()">No, Thanks</button>
+                  </div>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h2>Contact Us</h2>
+                </div>
+            </section>
+            <section class="container">
+                <div class="contents">
+                    <iframe 
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSev3C5Oao6A0T-lVdnFpWtcmLtVEy0zny_89hMbAIenGCCWSg/viewform?embedded=true" 
+                        width="640" 
+                        height="800" 
+                        frameborder="0" 
+                        marginheight="0" 
+                        marginwidth="0">
+                            Loading…
+                    </iframe>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <section>
+                <div>
+                    <p>
+                        Copyright &copy; 2025 
+                        Eco-Friendly Vehicle/Technology. 
+                        All Rights Reserved.
+                    </p>
+                </div>
+            </section>
+        </footer>
+        <script src="toggle.js"></script>
+        <script src="menu.js"></script>
+        <script src="popup.js" defer></script>
+    </body>
+</html>
